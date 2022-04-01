@@ -1,0 +1,4 @@
+stepDefinitions\Hooks.class
+stepDefinitions\ToDoListSteps.class
+stepDefinitions\LoginPageSteps.class
+testRunner\TestRunner.class

@@ -1,0 +1,187 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-01T09:47:43.566Z",
+        "line": 9,
+        "name": "Login to VUE application",
+        "description": "",
+        "id": "managing-to-do-lists;login-to-vue-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 719000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6914000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "MVC user should be able to login to the application applicationDetails",
+            "match": {
+              "arguments": [
+                {
+                  "val": "applicationDetails",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.LoginPageSteps.loginToVUEApplication(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todos"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-01T09:47:51.335Z",
+        "line": 21,
+        "name": "Add tasks in the list",
+        "description": "",
+        "id": "managing-to-do-lists;add-tasks-in-the-list;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4571000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "MVC user should be able to login to the application applicationDetails",
+            "match": {
+              "arguments": [
+                {
+                  "val": "applicationDetails",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.LoginPageSteps.loginToVUEApplication(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User adds task Bill Payments in the to do box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bill Payments",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.ToDoListSteps.addTasks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Task Bill Payments should get added in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bill Payments",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.ToDoListSteps.taskValidation(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User adds task Shopping in the to do box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.ToDoListSteps.addTasks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Task Shopping should get added in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping",
+                  "offset": 5
+                }
+              ],
+              "location": "stepDefinitions.ToDoListSteps.taskValidation(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todos"
+          },
+          {
+            "name": "@AddTasks"
+          }
+        ]
+      }
+    ],
+    "name": "Managing TO DO lists",
+    "description": "",
+    "id": "managing-to-do-lists",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/ToDoList.feature",
+    "tags": [
+      {
+        "name": "@todos",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
